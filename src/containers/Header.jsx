@@ -3,7 +3,10 @@ import { useSelector } from "react-redux/es/exports";
 import { NavLink, Outlet } from "react-router-dom";
 
 const Header = () => {
-  const cartLength = useSelector((state) => state.cart.cartItems.length);
+  const cartLength = useSelector((state) =>  state.cart.cartItems.reduce(
+    (qty, cartItem) => qty + cartItem.quantity ,
+    0
+  ));
   return (
     <>
       <div className="ui segment ">

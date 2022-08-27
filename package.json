@@ -1,7 +1,7 @@
 {
   "name": "ecom_clone",
   "version": "0.1.0",
-  "homepage": "https://Nancyjha.github.io/redux-react/",
+  "homepage": "https://Nancyjha.github.io/ecom-clone/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",

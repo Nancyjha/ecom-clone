@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/redux-react/static/css/main.6009d04c.css",
-    "main.js": "/redux-react/static/js/main.c6a1ac3a.js",
+    "main.css": "/redux-react/static/css/main.38df4a36.css",
+    "main.js": "/redux-react/static/js/main.99091079.js",
+    "static/media/empty_cart.png": "/redux-react/static/media/empty_cart.c1e48454e8d5a0ddf75e.png",
+    "static/media/orderplacer.png": "/redux-react/static/media/orderplacer.6207c91e4e43226ed042.png",
     "index.html": "/redux-react/index.html",
-    "main.6009d04c.css.map": "/redux-react/static/css/main.6009d04c.css.map",
-    "main.c6a1ac3a.js.map": "/redux-react/static/js/main.c6a1ac3a.js.map"
+    "main.38df4a36.css.map": "/redux-react/static/css/main.38df4a36.css.map",
+    "main.99091079.js.map": "/redux-react/static/js/main.99091079.js.map"
   },
   "entrypoints": [
-    "static/css/main.6009d04c.css",
-    "static/js/main.c6a1ac3a.js"
+    "static/css/main.38df4a36.css",
+    "static/js/main.99091079.js"
   ]
 }

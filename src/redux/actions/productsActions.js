@@ -7,14 +7,32 @@ export const setProducts = (products) => {
   };
 };
 
-export const selectedProduct = (product) => {
+export const addToCart = (product) => {
   return {
-    type: ActionTypes.SELECTED_PRODUCT,
+    type: ActionTypes.ADD_TO_CART,
     payload: product,
   };
 };
-export const removeSelectedProduct = () => {
+export const removeFromCart = (product) => {
   return {
-    type: ActionTypes.REMOVE_SELECTED_PRODUCT,
+    type: ActionTypes.REMOVE_FROM_CART,
+    payload: product,
+  };
+};
+export const increaseProductQuantity=(product)=>{
+  return {
+    type: ActionTypes.INCREASE_PRODUCT_QUANTITY,
+    payload: product,
+  };
+};
+export const decreaseProductQuantity=(product)=>{
+  return {
+    type: ActionTypes.DECREASE_PRODUCT_QUANTITY,
+    payload: product,
+  };
+};
+export const emptyCart = () => {
+  return {
+    type: ActionTypes.EMPTY_CART,
   };
 };

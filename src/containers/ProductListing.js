@@ -22,8 +22,16 @@ const ProductPage = () => {
   }, []);
 
   console.log("Products :", products);
-  return (
-    <div className="ui grid container">
+  return products.length == 0 ? (
+  <><div className="center aligned two column row">
+   
+<div class="ui active dimmer">
+         <div class="ui text loader">Loading</div>
+     </div>
+  </div>
+  </>
+  ):(
+    <div  className="ui stackable grid center aligned container">
       <ProductComponent />
     </div>
   );
